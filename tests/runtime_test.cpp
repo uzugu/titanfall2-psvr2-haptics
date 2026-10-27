@@ -40,9 +40,13 @@ int wmain(int argc, wchar_t** argv) {
     staleRight();
     Check(Await([&] { return read(1) == 0; }), "periodic reset clears stale offhand hardware state");
     p2::State("mp_weapon_car", "left", 0);
+    // The worker's brief release can fall entirely between test-thread polls.
+    // Count actual mock commands rather than sampling a transient motor state.
+    int releases = read(5);
+    int kicks = read(6);
     p2::Event("shot", 1);
-    Check(Await([&] { return read(0) == 1 && read(1) == 0; }), "automatic bullet sends left-trigger pushback command");
-    Check(Await([&] { return read(0) == 0; }), "automatic bullet pushback releases");
+    Check(Await([&] { return read(6) > kicks && read(1) == 0; }), "automatic bullet sends left-trigger pushback command");
+    Check(Await([&] { return read(5) > releases; }), "automatic bullet pushback releases");
     p2::Event("damage", 1);
     Check(Await([&] { return read(2) >= 10 && read(2) <= 25; }), "worker sends bounded headset command");
     Sleep(350);

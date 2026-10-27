@@ -107,6 +107,9 @@ DWORD WINAPI Worker(void*) {
             Output out;
             {
                 std::lock_guard<std::mutex> lock(R().mutex);
+                // Sample time after taking the state lock: a newer game heartbeat
+                // must not be mistaken for time moving backwards by Render.
+                now = Now();
                 out = R().effects->Render(now);
             }
             auto check = [&](int result, const char* operation) {
@@ -138,10 +141,13 @@ DWORD WINAPI Worker(void*) {
             }
             previous = out; force = !success;
             if (streaming && success) {
+                double waitStarted = Now();
                 int result = capi.wait();
                 if (!check(result, "PCM wait")) Sleep(20);
                 // Some driver states can signal immediately: avoid a busy loop.
-                else Sleep(1);
+                // Do not add a second Windows timer tick after an already-blocking wait:
+                // that can skip the release window between automatic trigger kicks.
+                else if (Now() - waitStarted < .001) Sleep(1);
             } else Sleep(success ? 5 : 50);
         }
     } catch (const std::exception& e) { Log(std::string("Worker stopped: ") + e.what()); }
@@ -201,7 +207,7 @@ void StartRuntime(HMODULE self) {
     Config config = ReadConfig(directory / L"Titanfall2VR_PSVR2.ini");
     R().loggingOnly = config.loggingOnly || !config.enabled;
     R().effects = std::make_unique<Effects>(config);
-    Log(std::string("v0.2.2 started; ") + (R().loggingOnly ? "logging only (no device writes)." : "hardware output enabled."));
+    Log(std::string("v0.2.3 started; ") + (R().loggingOnly ? "logging only (no device writes)." : "hardware output enabled."));
     R().run = true;
     R().worker = CreateThread(nullptr, 0, Worker, nullptr, 0, nullptr);
     if (!R().worker) { R().run = false; Log("Could not start output worker."); }

@@ -1,7 +1,7 @@
 {
   "Name": "Titanfall2VR_PSVR2",
   "Description": "PSVR2 adaptive triggers, controller PCM and headset damage feedback",
-  "Version": "0.2.2",
+  "Version": "0.2.3",
   "LoadPriority": 4,
   "RequiredOnClient": false,
   "PluginDependencies": ["TF2VR_PSVR2"],

@@ -2,16 +2,16 @@
 
 **Adaptive trigger pushback, weapon-specific recoil, and incoming-damage headset feedback for CircuitLord’s Titanfall 2 VR campaign.**
 
-[![Preview](https://img.shields.io/badge/preview-0.2.2-orange)](https://github.com/uzugu/titanfall2-psvr2-haptics/releases/tag/v0.2.2-preview)
+[![Preview](https://img.shields.io/badge/preview-0.2.3-orange)](https://github.com/uzugu/titanfall2-psvr2-haptics/releases/tag/v0.2.3-preview)
 ![Platform](https://img.shields.io/badge/platform-Windows_x64-0078D4)
 ![Profiles](https://img.shields.io/badge/game_data_profiles-55-38bdf8)
 [![Build](https://github.com/uzugu/titanfall2-psvr2-haptics/actions/workflows/build.yml/badge.svg)](https://github.com/uzugu/titanfall2-psvr2-haptics/actions/workflows/build.yml)
 
-[Download preview](https://github.com/uzugu/titanfall2-psvr2-haptics/releases/tag/v0.2.2-preview) · [Installation](#installation) · [Weapon profiles](GAME_PROFILES.md) · [Report an issue](https://github.com/uzugu/titanfall2-psvr2-haptics/issues)
+[Download preview](https://github.com/uzugu/titanfall2-psvr2-haptics/releases/tag/v0.2.3-preview) · [Installation](#installation) · [Weapon profiles](GAME_PROFILES.md) · [Report an issue](https://github.com/uzugu/titanfall2-psvr2-haptics/issues)
 
 From a Pilot’s CAR to BT’s Predator Cannon, weapon profiles use Titanfall 2’s firing rates, recoil values and charge mechanics to drive distinct PSVR2 effects. This is a separate Northstar add-on for the VR mod, with no extra bridge app to launch.
 
-> **Preview status:** Version 0.2.0 loaded in-game and logged shots, damage and hand changes. Version 0.2.2 passes four automated test suites and has been installed for testing. Its per-bullet pushback and left-hand reset changes still need physical confirmation. Headset rumble was not felt in the earlier play test; longer damage pulses are now implemented, but physical headset output remains unconfirmed.
+> **Preview status:** Version 0.2.0 loaded in-game and logged shots, damage and hand changes. Version 0.2.3 passes four automated test suites; physical testing is pending. Its per-bullet pushback and left-hand reset changes still need physical confirmation. Headset rumble was not felt in the earlier play test; longer damage pulses are now implemented, but physical headset output remains unconfirmed.
 
 ## What it adds
 
@@ -56,7 +56,7 @@ The native bridge targets Steam build **10350970** and the inspected Northstar *
 ## Installation
 
 1. Close Titanfall 2.
-2. Download and extract **[Titanfall2VR_PSVR2-0.2.2-preview.zip](https://github.com/uzugu/titanfall2-psvr2-haptics/releases/download/v0.2.2-preview/Titanfall2VR_PSVR2-0.2.2-preview.zip)** from Releases. GitHub’s “Source code” ZIP does not contain the built plugin.
+2. Download and extract **[Titanfall2VR_PSVR2-0.2.3-preview.zip](https://github.com/uzugu/titanfall2-psvr2-haptics/releases/download/v0.2.3-preview/Titanfall2VR_PSVR2-0.2.3-preview.zip)** from Releases. GitHub’s “Source code” ZIP does not contain the built plugin.
 3. Run `Install.ps1` from the extracted package:
 
    ```powershell

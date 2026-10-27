@@ -3,7 +3,7 @@ global function TF2VR_PSVR2_Init
 void function TF2VR_PSVR2_Init()
 {
 #if TF2VR_PSVR2
-    P2_Log( "PSVR2 client script initialized (v0.2.2)" )
+    P2_Log( "PSVR2 client script initialized (v0.2.3)" )
     for ( int source = -1; source <= 511; source++ )
         AddLocalPlayerTookDamageCallback( source, P2_OnDamage )
     thread P2_Watch()

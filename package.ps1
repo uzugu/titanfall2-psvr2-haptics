@@ -17,7 +17,7 @@ Copy-Item -LiteralPath (Join-Path $build 'Release/psvr2_probe.exe') -Destination
 foreach ($name in @('README.md', 'GAME_PROFILES.md', 'VALIDATION.md', 'THIRD_PARTY_NOTICES.md', 'Install.ps1')) {
     Copy-Item -LiteralPath (Join-Path $root $name) -Destination $stage
 }
-$zip = Join-Path $root 'dist/Titanfall2VR_PSVR2-0.2.2-preview.zip'
+$zip = Join-Path $root 'dist/Titanfall2VR_PSVR2-0.2.3-preview.zip'
 Compress-Archive -Path (Join-Path $stage '*') -DestinationPath $zip -Force
 Get-FileHash -LiteralPath $zip | Format-List
 Write-Output "Package folder: $stage"
