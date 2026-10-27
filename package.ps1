@@ -14,7 +14,7 @@ Copy-Item -LiteralPath (Join-Path $build 'Release/Titanfall2VR_PSVR2.dll') -Dest
 Copy-Item -LiteralPath (Join-Path $root 'config/Titanfall2VR_PSVR2.ini') -Destination (Join-Path $stage 'plugins')
 Copy-Item -LiteralPath (Join-Path $root 'mod/Titanfall2VR_PSVR2') -Destination (Join-Path $stage 'mods') -Recurse
 Copy-Item -LiteralPath (Join-Path $build 'Release/psvr2_probe.exe') -Destination (Join-Path $stage 'tools')
-foreach ($name in @('README.md', 'GAME_PROFILES.md', 'THIRD_PARTY_NOTICES.md', 'Install.ps1')) {
+foreach ($name in @('README.md', 'GAME_PROFILES.md', 'VALIDATION.md', 'THIRD_PARTY_NOTICES.md', 'Install.ps1')) {
     Copy-Item -LiteralPath (Join-Path $root $name) -Destination $stage
 }
 $zip = Join-Path $root 'dist/Titanfall2VR_PSVR2-0.2.2-preview.zip'
