@@ -1,0 +1,11 @@
+/build/
+/dist/
+/research/
+*.log
+/.vs/
+/.vscode/
+*.user
+*.pdb
+*.dll
+*.exe
+*.zip

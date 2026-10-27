@@ -1,0 +1,2185 @@
+{
+  "sourceCommit": "9bfcea43ecf2a12fc3783ce22e63e439f422c045",
+  "weapons": [
+    {
+      "id": "mp_weapon_semipistol",
+      "name": "Hammond P2016",
+      "style": "Ballistic",
+      "role": "Primary",
+      "titan": false,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_weapon_semipistol.txt",
+      "sha256": "86730aa215c8af7524f3af99cd5f7aa6b8be6be3d32a818abbc71bbee6479f91",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 8,
+        "ammo_clip_size": 12,
+        "viewkick_pitch_base": -0.85,
+        "viewkick_yaw_base": 0.1,
+        "reload_time": 1.25,
+        "zoom_time_in": 0.2,
+        "zoom_time_out": 0.15,
+        "damage_near_value": 40,
+        "damage_near_value_titanarmor": 60
+      },
+      "variants": {
+        "pas_fast_reload": {
+          "reload_time": "*0.7"
+        },
+        "extended_ammo": {
+          "ammo_clip_size": "16"
+        },
+        "silencer": {
+          "damage_near_value": "--10"
+        },
+        "pas_fast_ads": {
+          "zoom_time_in": "*0.5",
+          "zoom_time_out": "*0.6"
+        },
+        "burn_mod_semipistol": {
+          "damage_near_value": "++5",
+          "damage_near_value_titanarmor": "++100"
+        }
+      }
+    },
+    {
+      "id": "mp_weapon_autopistol",
+      "name": "RE-45 Auto",
+      "style": "Ballistic",
+      "role": "Primary",
+      "titan": false,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_weapon_autopistol.txt",
+      "sha256": "bbb75c79e9b8b0b934fb2b5ee8a0b214fdcb17a8bb160f6b1e70df68f065a720",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 13,
+        "ammo_clip_size": 20,
+        "viewkick_pitch_base": -0.34,
+        "viewkick_yaw_base": 0.15,
+        "reload_time": 1.74,
+        "zoom_time_in": 0.2,
+        "zoom_time_out": 0.15,
+        "damage_near_value": 25,
+        "damage_near_value_titanarmor": 25
+      },
+      "variants": {
+        "pas_fast_reload": {
+          "reload_time": "*0.7"
+        },
+        "extended_ammo": {
+          "ammo_clip_size": "25"
+        },
+        "silencer": {
+          "damage_near_value": "--5"
+        },
+        "pas_fast_ads": {
+          "zoom_time_in": "*0.5",
+          "zoom_time_out": "*0.6"
+        },
+        "burn_mod_autopistol": {
+          "damage_near_value": "++5",
+          "damage_near_value_titanarmor": "++100"
+        },
+        "rocket_arena": {
+          "damage_near_value": "*0.25"
+        }
+      }
+    },
+    {
+      "id": "mp_weapon_wingman",
+      "name": "B3 Wingman",
+      "style": "Ballistic",
+      "role": "Primary",
+      "titan": false,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_weapon_wingman.txt",
+      "sha256": "11cc42df77ed9d303e06bb7fd7f7b48be8e587ed8b04cbda6ff862a8d1edad98",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 2.6,
+        "ammo_clip_size": 6,
+        "viewkick_pitch_base": -2.5,
+        "viewkick_yaw_base": -0.5,
+        "reload_time": 2.1,
+        "zoom_time_in": 0.2,
+        "zoom_time_out": 0.15,
+        "damage_near_value": 90,
+        "damage_near_value_titanarmor": 125
+      },
+      "variants": {
+        "extended_ammo": {
+          "ammo_clip_size": "8"
+        },
+        "silencer": {
+          "damage_near_value": "--10"
+        },
+        "pas_fast_reload": {
+          "reload_time": "*0.7"
+        },
+        "pas_fast_ads": {
+          "zoom_time_in": "*0.5",
+          "zoom_time_out": "*0.6"
+        },
+        "burn_mod_wingman": {
+          "damage_near_value": "++10",
+          "damage_near_value_titanarmor": "++100"
+        }
+      }
+    },
+    {
+      "id": "mp_weapon_wingman_n",
+      "name": "Wingman Elite",
+      "style": "Ballistic",
+      "role": "Primary",
+      "titan": false,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_weapon_wingman_n.txt",
+      "sha256": "036b707cde52f3799d4fe2034147410d0b3c2580c6b4a2e0d0e17786326ed252",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 2.6,
+        "ammo_clip_size": 6,
+        "viewkick_pitch_base": -0.5,
+        "viewkick_yaw_base": 0.05,
+        "reload_time": 2.1,
+        "zoom_time_in": 0.2,
+        "zoom_time_out": 0.15,
+        "damage_near_value": 75,
+        "damage_near_value_titanarmor": 300
+      },
+      "variants": {
+        "extended_ammo": {
+          "ammo_clip_size": "8"
+        },
+        "silencer": {
+          "damage_near_value": "--10"
+        },
+        "pas_fast_reload": {
+          "reload_time": "*0.7"
+        },
+        "pas_fast_ads": {
+          "zoom_time_in": "*0.5",
+          "zoom_time_out": "*0.6"
+        },
+        "burn_mod_wingman_n": {
+          "damage_near_value": "++20",
+          "damage_near_value_titanarmor": "450"
+        }
+      }
+    },
+    {
+      "id": "mp_weapon_smart_pistol",
+      "name": "Smart Pistol",
+      "style": "Ballistic",
+      "role": "Primary",
+      "titan": false,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_weapon_smart_pistol.txt",
+      "sha256": "f7cebcbcd4cd5f4d282dcb7897845ac968c665af1d0f7a66b1c3923f4324c5da",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 8,
+        "burst_fire_delay": 0.125,
+        "ammo_clip_size": 18,
+        "viewkick_pitch_base": -1,
+        "viewkick_yaw_base": 0.15,
+        "reload_time": 1.45,
+        "zoom_time_in": 0.2,
+        "zoom_time_out": 0.15,
+        "damage_near_value": 45,
+        "damage_near_value_titanarmor": 25
+      },
+      "variants": {
+        "extended_ammo": {
+          "ammo_clip_size": "16"
+        },
+        "silencer": {
+          "damage_near_value": "20"
+        },
+        "pas_fast_reload": {
+          "reload_time": "*0.7"
+        },
+        "pas_fast_ads": {
+          "zoom_time_in": "*0.5",
+          "zoom_time_out": "*0.6"
+        },
+        "burn_mod_smart_pistol": {
+          "damage_near_value": "55",
+          "damage_near_value_titanarmor": "215"
+        },
+        "og_pilot": {
+          "damage_near_value": "*4.0"
+        }
+      }
+    },
+    {
+      "id": "mp_weapon_rspn101",
+      "name": "R-201 Carbine",
+      "style": "Ballistic",
+      "role": "Primary",
+      "titan": false,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_weapon_rspn101.txt",
+      "sha256": "c6f37710650621d2eeeb3e7662974f1a1cfa02302e3b347957c69e4478106d56",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 13.5,
+        "ammo_clip_size": 32,
+        "viewkick_pitch_base": -0.25,
+        "viewkick_yaw_base": 0,
+        "reload_time": 2.2,
+        "zoom_time_in": 0.25,
+        "zoom_time_out": 0.2,
+        "damage_near_value": 25,
+        "damage_near_value_titanarmor": 30
+      },
+      "variants": {
+        "extended_ammo": {
+          "ammo_clip_size": "30"
+        },
+        "pas_fast_reload": {
+          "reload_time": "*0.7"
+        },
+        "pas_fast_ads": {
+          "zoom_time_in": "*0.5",
+          "zoom_time_out": "*0.6"
+        },
+        "burn_mod_rspn101": {
+          "damage_near_value": "++10",
+          "damage_near_value_titanarmor": "170"
+        }
+      }
+    },
+    {
+      "id": "mp_weapon_rspn101_og",
+      "name": "R-101 Carbine",
+      "style": "Ballistic",
+      "role": "Primary",
+      "titan": false,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_weapon_rspn101_og.txt",
+      "sha256": "e44178a32fe43d4c3a0010e31650209fd69b41c96d7432489eb3001448092c10",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 13.5,
+        "ammo_clip_size": 32,
+        "viewkick_pitch_base": -0.25,
+        "viewkick_yaw_base": 0,
+        "reload_time": 2.2,
+        "zoom_time_in": 0.25,
+        "zoom_time_out": 0.2,
+        "damage_near_value": 25,
+        "damage_near_value_titanarmor": 30
+      },
+      "variants": {
+        "extended_ammo": {
+          "ammo_clip_size": "30"
+        },
+        "pas_fast_reload": {
+          "reload_time": "*0.7"
+        },
+        "pas_fast_ads": {
+          "zoom_time_in": "*0.5",
+          "zoom_time_out": "*0.6"
+        },
+        "burn_mod_rspn101": {
+          "damage_near_value": "++10",
+          "damage_near_value_titanarmor": "170"
+        }
+      }
+    },
+    {
+      "id": "mp_weapon_vinson",
+      "name": "V-47 Flatline",
+      "style": "Ballistic",
+      "role": "Primary",
+      "titan": false,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_weapon_vinson.txt",
+      "sha256": "2069846710a0bbfa39fbe42a5bc6e85354635d33c03ea6c6cc422149062be218",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 10,
+        "ammo_clip_size": 30,
+        "viewkick_pitch_base": 0,
+        "viewkick_yaw_base": -0.25,
+        "reload_time": 2.073,
+        "zoom_time_in": 0.25,
+        "zoom_time_out": 0.2,
+        "damage_near_value": 35,
+        "damage_near_value_titanarmor": 33
+      },
+      "variants": {
+        "extended_ammo": {
+          "ammo_clip_size": "36"
+        },
+        "pas_fast_reload": {
+          "reload_time": "*0.7"
+        },
+        "pas_fast_ads": {
+          "zoom_time_in": "*0.5",
+          "zoom_time_out": "*0.6"
+        },
+        "burn_mod_vinson": {
+          "damage_near_value": "++5",
+          "damage_near_value_titanarmor": "200"
+        }
+      }
+    },
+    {
+      "id": "mp_weapon_hemlok",
+      "name": "Hemlok BF-R",
+      "style": "Ballistic",
+      "role": "Primary",
+      "titan": false,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_weapon_hemlok.txt",
+      "sha256": "4350984ae498d105bfaabb958ec61912b20ab95990bc35a19c3aba1708122ff5",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 15.5,
+        "burst_fire_count": 3,
+        "burst_fire_delay": 0.25,
+        "ammo_clip_size": 24,
+        "viewkick_pitch_base": -0.95,
+        "viewkick_yaw_base": 0.1,
+        "reload_time": 2.52,
+        "zoom_time_in": 0.25,
+        "zoom_time_out": 0.2,
+        "damage_near_value": 30,
+        "damage_near_value_titanarmor": 35
+      },
+      "variants": {
+        "pas_fast_reload": {
+          "reload_time": "*0.75"
+        },
+        "extended_ammo": {
+          "ammo_clip_size": "30"
+        },
+        "pas_fast_ads": {
+          "zoom_time_in": "*0.5",
+          "zoom_time_out": "*0.6"
+        },
+        "burn_mod_hemlok": {
+          "damage_near_value": "++10",
+          "damage_near_value_titanarmor": "175"
+        }
+      }
+    },
+    {
+      "id": "mp_weapon_g2",
+      "name": "G2A5",
+      "style": "Ballistic",
+      "role": "Primary",
+      "titan": false,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_weapon_g2.txt",
+      "sha256": "e31b563b065bf2462d99f2659f49b1457422656e3f628f3a4a35c820c6065bc6",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 5.5,
+        "ammo_clip_size": 14,
+        "viewkick_pitch_base": -0.17,
+        "viewkick_yaw_base": 0.1,
+        "reload_time": 2.2,
+        "zoom_time_in": 0.25,
+        "zoom_time_out": 0.2,
+        "damage_near_value": 45,
+        "damage_near_value_titanarmor": 45
+      },
+      "variants": {
+        "pas_fast_reload": {
+          "reload_time": "*0.7"
+        },
+        "pas_fast_ads": {
+          "zoom_time_in": "*0.5",
+          "zoom_time_out": "*0.6"
+        },
+        "extended_ammo": {
+          "ammo_clip_size": "18"
+        },
+        "burn_mod_g2": {
+          "damage_near_value": "++10",
+          "damage_near_value_titanarmor": "240"
+        }
+      }
+    },
+    {
+      "id": "mp_weapon_car",
+      "name": "CAR",
+      "style": "Ballistic",
+      "role": "Primary",
+      "titan": false,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_weapon_car.txt",
+      "sha256": "1ca0c35bd1f5e42029d9f29673c95b39ea22d60fc468ab30953c38af8e37944b",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 14.1,
+        "ammo_clip_size": 30,
+        "viewkick_pitch_base": -0.2,
+        "viewkick_yaw_base": 0,
+        "reload_time": 1.8,
+        "zoom_time_in": 0.2,
+        "zoom_time_out": 0.15,
+        "damage_near_value": 25,
+        "damage_near_value_titanarmor": 50
+      },
+      "variants": {
+        "pas_fast_reload": {
+          "reload_time": "*0.7"
+        },
+        "extended_ammo": {
+          "ammo_clip_size": "36"
+        },
+        "pas_fast_ads": {
+          "zoom_time_in": "*0.5",
+          "zoom_time_out": "*0.6"
+        },
+        "burn_mod_car": {
+          "damage_near_value": "++10",
+          "damage_near_value_titanarmor": "170"
+        }
+      }
+    },
+    {
+      "id": "mp_weapon_r97",
+      "name": "R-97",
+      "style": "Ballistic",
+      "role": "Primary",
+      "titan": false,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_weapon_r97.txt",
+      "sha256": "b4f76caf5c69254632ee0577c04f037c59edd90345c3979b47420f607cc1cd06",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 18,
+        "ammo_clip_size": 40,
+        "viewkick_pitch_base": -0.2,
+        "viewkick_yaw_base": -0.1,
+        "reload_time": 1.8,
+        "zoom_time_in": 0.2,
+        "zoom_time_out": 0.15,
+        "damage_near_value": 20,
+        "damage_near_value_titanarmor": 40
+      },
+      "variants": {
+        "pas_fast_reload": {
+          "reload_time": "*0.7"
+        },
+        "extended_ammo": {
+          "ammo_clip_size": "48"
+        },
+        "pas_fast_ads": {
+          "zoom_time_in": "*0.5",
+          "zoom_time_out": "*0.6"
+        },
+        "burn_mod_r97": {
+          "damage_near_value": "++5",
+          "damage_near_value_titanarmor": "165"
+        }
+      }
+    },
+    {
+      "id": "mp_weapon_alternator_smg",
+      "name": "Alternator",
+      "style": "Ballistic",
+      "role": "Primary",
+      "titan": false,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_weapon_alternator_smg.txt",
+      "sha256": "b4dd2ba299dd8b6d17ba63bda72dcddb55aa1275d3f440af3e1857b575562c0d",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 10,
+        "ammo_clip_size": 20,
+        "viewkick_pitch_base": 0,
+        "viewkick_yaw_base": 0,
+        "reload_time": 2.3,
+        "zoom_time_in": 0.2,
+        "zoom_time_out": 0.15,
+        "damage_near_value": 27,
+        "damage_near_value_titanarmor": 45
+      },
+      "variants": {
+        "extended_ammo": {
+          "ammo_clip_size": "25"
+        },
+        "pas_fast_reload": {
+          "reload_time": "*0.7"
+        },
+        "pas_fast_ads": {
+          "zoom_time_in": "*0.5",
+          "zoom_time_out": "*0.6"
+        },
+        "burn_mod_alternator_smg": {
+          "damage_near_value": "++10",
+          "damage_near_value_titanarmor": "200"
+        }
+      }
+    },
+    {
+      "id": "mp_weapon_hemlok_smg",
+      "name": "Volt",
+      "style": "Energy",
+      "role": "Primary",
+      "titan": false,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_weapon_hemlok_smg.txt",
+      "sha256": "2b945e828da5ba1e3e7e7aa1156c673abce06f9a38af1024b7446c43b62b15b5",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 11,
+        "ammo_clip_size": 33,
+        "viewkick_pitch_base": -0.15,
+        "viewkick_yaw_base": 0.1,
+        "reload_time": 1.5,
+        "zoom_time_in": 0.2,
+        "zoom_time_out": 0.15,
+        "damage_near_value": 22,
+        "damage_near_value_titanarmor": 35
+      },
+      "variants": {
+        "pas_fast_reload": {
+          "reload_time": "*0.7"
+        },
+        "extended_ammo": {
+          "ammo_clip_size": "40"
+        },
+        "pas_fast_ads": {
+          "zoom_time_in": "*0.5",
+          "zoom_time_out": "*0.6"
+        },
+        "burn_mod_hemlok_smg": {
+          "damage_near_value": "++10",
+          "damage_near_value_titanarmor": "190"
+        }
+      }
+    },
+    {
+      "id": "mp_weapon_lmg",
+      "name": "Spitfire",
+      "style": "Ballistic",
+      "role": "Primary",
+      "titan": false,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_weapon_lmg.txt",
+      "sha256": "0e5fcff950ef92c356a0d4b28609ebcae7a572608681dfc6bbdf54e4b3faddb0",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 9,
+        "ammo_clip_size": 80,
+        "viewkick_pitch_base": -1,
+        "viewkick_yaw_base": 0,
+        "reload_time": 2.8,
+        "zoom_time_in": 0.3,
+        "zoom_time_out": 0.3,
+        "damage_near_value": 25,
+        "damage_near_value_titanarmor": 40
+      },
+      "variants": {
+        "extended_ammo": {
+          "ammo_clip_size": "96"
+        },
+        "pas_fast_reload": {
+          "reload_time": "*0.7"
+        },
+        "pas_fast_ads": {
+          "zoom_time_in": "*0.5",
+          "zoom_time_out": "*0.6"
+        },
+        "burn_mod_lmg": {
+          "damage_near_value": "++10",
+          "damage_near_value_titanarmor": "180"
+        }
+      }
+    },
+    {
+      "id": "mp_weapon_esaw",
+      "name": "X-55 Devotion",
+      "style": "Ballistic",
+      "role": "Primary",
+      "titan": false,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_weapon_esaw.txt",
+      "sha256": "e212f262eae9da9e4a3c7b1b025679c73a3dedaf7d7e74ea8a39138873ec8b1b",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 5,
+        "ammo_clip_size": 55,
+        "viewkick_pitch_base": -0.17,
+        "viewkick_yaw_base": 0,
+        "reload_time": 2.8,
+        "zoom_time_in": 0.3,
+        "zoom_time_out": 0.3,
+        "fire_rate_max": 15,
+        "fire_rate_max_time_speedup": 1.75,
+        "damage_near_value": 20,
+        "damage_near_value_titanarmor": 35
+      },
+      "variants": {
+        "extended_ammo": {
+          "ammo_clip_size": "66"
+        },
+        "pas_fast_ads": {
+          "zoom_time_in": "*0.5",
+          "zoom_time_out": "*0.6"
+        },
+        "pas_fast_reload": {
+          "reload_time": "*0.7"
+        },
+        "burn_mod_esaw": {
+          "damage_near_value": "++10",
+          "damage_near_value_titanarmor": "180"
+        }
+      }
+    },
+    {
+      "id": "mp_weapon_lstar",
+      "name": "L-STAR",
+      "style": "Energy",
+      "role": "Primary",
+      "titan": false,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_weapon_lstar.txt",
+      "sha256": "54950149544e71800ed97c4c454f639bfbbceb7323a576678a4e880934e09c06",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 12,
+        "ammo_clip_size": 35,
+        "viewkick_pitch_base": 0.25,
+        "viewkick_yaw_base": 0,
+        "projectile_launch_speed": 3500,
+        "zoom_time_in": 0.3,
+        "zoom_time_out": 0.3,
+        "damage_near_value": 25,
+        "damage_near_value_titanarmor": 40
+      },
+      "variants": {
+        "extended_ammo": {
+          "ammo_clip_size": "40"
+        },
+        "pas_fast_ads": {
+          "zoom_time_in": "*0.5",
+          "zoom_time_out": "*0.6"
+        },
+        "burn_mod_lstar": {
+          "damage_near_value": "++10",
+          "damage_near_value_titanarmor": "185"
+        },
+        "old_kick": {
+          "viewkick_pitch_base": "0",
+          "viewkick_yaw_base": "0"
+        }
+      }
+    },
+    {
+      "id": "mp_weapon_shotgun",
+      "name": "EVA-8 Auto",
+      "style": "Scatter",
+      "role": "Primary",
+      "titan": false,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_weapon_shotgun.txt",
+      "sha256": "7190380853c4b2c0845b58935e2ec5ff59ca6f6e8782121f1a917b47a1556e8a",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 2.75,
+        "ammo_clip_size": 8,
+        "viewkick_pitch_base": -1.75,
+        "viewkick_yaw_base": -0.65,
+        "reload_time": 2.75,
+        "zoom_time_in": 0.25,
+        "zoom_time_out": 0.2,
+        "damage_near_value": 100,
+        "damage_near_value_titanarmor": 200
+      },
+      "variants": {
+        "pas_fast_reload": {
+          "reload_time": "*0.7"
+        },
+        "extended_ammo": {
+          "ammo_clip_size": "10"
+        },
+        "pas_fast_ads": {
+          "zoom_time_in": "*0.5",
+          "zoom_time_out": "*0.6"
+        },
+        "burn_mod_shotgun": {
+          "damage_near_value": "250",
+          "damage_near_value_titanarmor": "400"
+        }
+      }
+    },
+    {
+      "id": "mp_weapon_mastiff",
+      "name": "Mastiff",
+      "style": "Scatter",
+      "role": "Primary",
+      "titan": false,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_weapon_mastiff.txt",
+      "sha256": "df7f9605f8558f6cd952dd043ae72a082c57f7869454da517380c91429ce7a0d",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 1.3,
+        "ammo_clip_size": 6,
+        "viewkick_pitch_base": -1.25,
+        "viewkick_yaw_base": -0.35,
+        "reload_time": 1.03,
+        "zoom_time_in": 0.25,
+        "zoom_time_out": 0.2,
+        "damage_near_value": 35,
+        "damage_near_value_titanarmor": 45
+      },
+      "variants": {
+        "extended_ammo": {
+          "ammo_clip_size": "6"
+        },
+        "pas_fast_ads": {
+          "zoom_time_in": "*0.5",
+          "zoom_time_out": "*0.6"
+        },
+        "pas_fast_reload": {
+          "reload_time": "*0.7"
+        },
+        "burn_mod_mastiff": {
+          "damage_near_value": "++5",
+          "damage_near_value_titanarmor": "100"
+        }
+      }
+    },
+    {
+      "id": "mp_weapon_shotgun_pistol",
+      "name": "SA-3 Mozambique",
+      "style": "Scatter",
+      "role": "Primary",
+      "titan": false,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_weapon_shotgun_pistol.txt",
+      "sha256": "b61d371451b47b8e2cb94fa9de69e616b95a33f1195dc91556944f81722d3657",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 3,
+        "ammo_clip_size": 6,
+        "viewkick_pitch_base": -2.25,
+        "viewkick_yaw_base": -0.95,
+        "reload_time": 2.1,
+        "zoom_time_in": 0.2,
+        "zoom_time_out": 0.15,
+        "damage_near_value": 30,
+        "damage_near_value_titanarmor": 30
+      },
+      "variants": {
+        "extended_ammo": {
+          "ammo_clip_size": "8"
+        },
+        "silencer": {
+          "damage_near_value": "--10"
+        },
+        "pas_fast_reload": {
+          "reload_time": "*0.7"
+        },
+        "pas_fast_ads": {
+          "zoom_time_in": "*0.5",
+          "zoom_time_out": "*0.6"
+        },
+        "burn_mod_shotgun_pistol": {
+          "damage_near_value": "++5",
+          "damage_near_value_titanarmor": "++30"
+        }
+      }
+    },
+    {
+      "id": "mp_weapon_dmr",
+      "name": "Longbow-DMR",
+      "style": "Ballistic",
+      "role": "Primary",
+      "titan": false,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_weapon_dmr.txt",
+      "sha256": "d6816b079abe5c8f431efceeefb428352abc432aadccc27c48acb0dbff2f66d2",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 3,
+        "ammo_clip_size": 6,
+        "viewkick_pitch_base": -0.61,
+        "viewkick_yaw_base": -0.5,
+        "reload_time": 2.66,
+        "zoom_time_in": 0.4,
+        "zoom_time_out": 0.3,
+        "damage_near_value": 90,
+        "damage_near_value_titanarmor": 90
+      },
+      "variants": {
+        "pas_fast_reload": {
+          "reload_time": "*0.7"
+        },
+        "pas_fast_ads": {
+          "zoom_time_in": "*0.5",
+          "zoom_time_out": "*0.6"
+        },
+        "extended_ammo": {
+          "ammo_clip_size": "10"
+        },
+        "burn_mod_dmr": {
+          "damage_near_value": "++20",
+          "damage_near_value_titanarmor": "580"
+        }
+      }
+    },
+    {
+      "id": "mp_weapon_doubletake",
+      "name": "D-2 Double Take",
+      "style": "Energy",
+      "role": "Primary",
+      "titan": false,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_weapon_doubletake.txt",
+      "sha256": "1588212f4025ec99b7474cd7ea304ecc076fb43640cbc1d26482f6cdcddb44eb",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 2,
+        "ammo_clip_size": 12,
+        "ammo_per_shot": 2,
+        "viewkick_pitch_base": -0.61,
+        "viewkick_yaw_base": 0.05,
+        "reload_time": 2.4,
+        "zoom_time_in": 0.4,
+        "zoom_time_out": 0.3,
+        "damage_near_value": 50,
+        "damage_near_value_titanarmor": 50
+      },
+      "variants": {
+        "extended_ammo": {
+          "ammo_clip_size": "16"
+        },
+        "pas_fast_reload": {
+          "reload_time": "*0.7"
+        },
+        "pas_fast_ads": {
+          "zoom_time_in": "*0.5",
+          "zoom_time_out": "*0.6"
+        },
+        "burn_mod_doubletake": {
+          "damage_near_value": "35",
+          "damage_near_value_titanarmor": "265"
+        }
+      }
+    },
+    {
+      "id": "mp_weapon_sniper",
+      "name": "Kraber-AP Sniper",
+      "style": "Ballistic",
+      "role": "Primary",
+      "titan": false,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_weapon_sniper.txt",
+      "sha256": "2f0b5a4eb0b163b90ed43a5b96a44728535420acd2875c878d090567bee24241",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 1.85,
+        "ammo_clip_size": 4,
+        "viewkick_pitch_base": -0.5625,
+        "viewkick_yaw_base": -0.135,
+        "reload_time": 2.5,
+        "zoom_time_in": 0.4,
+        "zoom_time_out": 0.3,
+        "damage_near_value": 200,
+        "damage_near_value_titanarmor": 500
+      },
+      "variants": {
+        "extended_ammo": {
+          "ammo_clip_size": "7"
+        },
+        "pas_fast_reload": {
+          "reload_time": "*0.7"
+        },
+        "pas_fast_ads": {
+          "zoom_time_in": "*0.5",
+          "zoom_time_out": "*0.6"
+        },
+        "burn_mod_sniper": {
+          "damage_near_value": "450",
+          "damage_near_value_titanarmor": "580"
+        }
+      }
+    },
+    {
+      "id": "mp_weapon_epg",
+      "name": "EPG-1",
+      "style": "Energy",
+      "role": "Primary",
+      "titan": false,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_weapon_epg.txt",
+      "sha256": "448a8b15c6126c87f0dc065188bd982b52101289e1375f4ebc0a82cac435adc2",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 1,
+        "ammo_clip_size": 5,
+        "viewkick_pitch_base": -0.05,
+        "viewkick_yaw_base": 0,
+        "projectile_launch_speed": 2000,
+        "reload_time": 2.9,
+        "zoom_time_in": 0.2,
+        "zoom_time_out": 0.15,
+        "damage_near_value": 160,
+        "damage_near_value_titanarmor": 425
+      },
+      "variants": {
+        "extended_ammo": {
+          "ammo_clip_size": "8"
+        },
+        "pas_fast_ads": {
+          "zoom_time_in": "*0.5",
+          "zoom_time_out": "*0.6"
+        },
+        "burn_mod_epg": {
+          "damage_near_value": "120",
+          "damage_near_value_titanarmor": "900"
+        },
+        "pas_fast_reload": {
+          "reload_time": "*0.7"
+        },
+        "slowProjectile": {
+          "projectile_launch_speed": "1750"
+        },
+        "rocket_arena": {
+          "projectile_launch_speed": "1750",
+          "damage_near_value": "35"
+        }
+      }
+    },
+    {
+      "id": "mp_weapon_softball",
+      "name": "R-6P Softball",
+      "style": "Rocket",
+      "role": "Primary",
+      "titan": false,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_weapon_softball.txt",
+      "sha256": "85b5770fa8adb5d9561b339ec840c34222867ffb5c1ccf279043a357a21a828e",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 2,
+        "ammo_clip_size": 6,
+        "viewkick_pitch_base": -0.3,
+        "viewkick_yaw_base": 0,
+        "projectile_launch_speed": 2500,
+        "reload_time": 0.95,
+        "zoom_time_in": 0.2,
+        "zoom_time_out": 0.15,
+        "damage_near_value": 45,
+        "damage_near_value_titanarmor": 45
+      },
+      "variants": {
+        "extended_ammo": {
+          "ammo_clip_size": "8"
+        },
+        "pas_fast_ads": {
+          "zoom_time_in": "*0.5",
+          "zoom_time_out": "*0.6"
+        },
+        "pas_fast_reload": {
+          "reload_time": "*0.7"
+        }
+      }
+    },
+    {
+      "id": "mp_weapon_smr",
+      "name": "Sidewinder SMR",
+      "style": "Rocket",
+      "role": "Primary",
+      "titan": false,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_weapon_smr.txt",
+      "sha256": "a62e15f7e63dadfadeec491a161bcdda86c8436aab0071f418b5991903d3b874",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 9,
+        "ammo_clip_size": 20,
+        "viewkick_pitch_base": -0.25,
+        "viewkick_yaw_base": 0.1,
+        "projectile_launch_speed": 3300,
+        "reload_time": 3,
+        "zoom_time_in": 0.2,
+        "zoom_time_out": 0.15,
+        "damage_near_value": 45,
+        "damage_near_value_titanarmor": 175
+      },
+      "variants": {
+        "extended_ammo": {
+          "ammo_clip_size": "25"
+        },
+        "pas_fast_reload": {
+          "reload_time": "*0.7"
+        },
+        "burn_mod_smr": {
+          "damage_near_value": "90",
+          "damage_near_value_titanarmor": "250"
+        },
+        "pas_fast_ads": {
+          "zoom_time_in": "*0.5",
+          "zoom_time_out": "*0.6"
+        }
+      }
+    },
+    {
+      "id": "mp_weapon_pulse_lmg",
+      "name": "EM-4 Cold War",
+      "style": "Energy",
+      "role": "Primary",
+      "titan": false,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_weapon_pulse_lmg.txt",
+      "sha256": "1dba4b310eff45de7b7af25da293612d1e1ef9382280ff32b9cf389aa822f66f",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 12,
+        "burst_fire_count": 4,
+        "burst_fire_delay": 0.5,
+        "charge_time": 0.5,
+        "charge_cooldown_time": 0.5,
+        "ammo_clip_size": 20,
+        "viewkick_pitch_base": -0.05,
+        "viewkick_yaw_base": 0,
+        "projectile_launch_speed": 3500,
+        "reload_time": 4,
+        "zoom_time_in": 0.2,
+        "zoom_time_out": 0.15,
+        "damage_near_value": 90,
+        "damage_near_value_titanarmor": 150
+      },
+      "variants": {
+        "extended_ammo": {
+          "ammo_clip_size": "16"
+        },
+        "pas_fast_ads": {
+          "zoom_time_in": "*0.5",
+          "zoom_time_out": "*0.6"
+        },
+        "burn_mod_pulse_lmg": {
+          "damage_near_value": "45",
+          "damage_near_value_titanarmor": "300"
+        },
+        "pas_fast_reload": {
+          "reload_time": "*0.7"
+        }
+      }
+    },
+    {
+      "id": "mp_weapon_mgl",
+      "name": "MGL Mag Launcher",
+      "style": "Rocket",
+      "role": "Primary",
+      "titan": false,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_weapon_mgl.txt",
+      "sha256": "04343eec9e04ffc458768bfd508880982050952433b0a715f9ad949477dc04f4",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 6,
+        "burst_fire_count": 2,
+        "burst_fire_delay": 0.7,
+        "ammo_clip_size": 6,
+        "viewkick_pitch_base": -0.3,
+        "viewkick_yaw_base": 0,
+        "projectile_launch_speed": 1200,
+        "reload_time": 3.75,
+        "zoom_time_in": 0.2,
+        "zoom_time_out": 0.15,
+        "damage_near_value": 10,
+        "damage_near_value_titanarmor": 150
+      },
+      "variants": {
+        "extended_ammo": {
+          "ammo_clip_size": "8"
+        },
+        "pas_fast_reload": {
+          "reload_time": "*0.7"
+        },
+        "burn_mod_mgl": {
+          "damage_near_value": "50",
+          "damage_near_value_titanarmor": "480"
+        },
+        "pas_fast_ads": {
+          "zoom_time_in": "*0.5",
+          "zoom_time_out": "*0.6"
+        }
+      }
+    },
+    {
+      "id": "mp_weapon_arc_launcher",
+      "name": "LG-97 Thunderbolt",
+      "style": "Energy",
+      "role": "Primary",
+      "titan": false,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_weapon_arc_launcher.txt",
+      "sha256": "e59229d0f606ca985a1639f067b1bcaa49148cd1b9c42a98f989b29a56b9709b",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 2,
+        "ammo_clip_size": 1,
+        "viewkick_pitch_base": -0.2,
+        "viewkick_yaw_base": -1,
+        "reload_time": 3.35,
+        "zoom_time_in": 0.35,
+        "zoom_time_out": 0.35,
+        "damage_near_value": 250,
+        "damage_near_value_titanarmor": 800
+      },
+      "variants": {
+        "extended_ammo": {
+          "ammo_clip_size": "1"
+        },
+        "burn_mod_arc_launcher": {
+          "damage_near_value": "90",
+          "damage_near_value_titanarmor": "1350"
+        },
+        "pas_fast_ads": {
+          "zoom_time_in": "*0.5",
+          "zoom_time_out": "*0.6"
+        },
+        "pas_fast_reload": {
+          "reload_time": "*0.7"
+        }
+      }
+    },
+    {
+      "id": "mp_weapon_rocket_launcher",
+      "name": "Archer",
+      "style": "Rocket",
+      "role": "Primary",
+      "titan": false,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_weapon_rocket_launcher.txt",
+      "sha256": "8997db32e240799104ea3bccc79c2df81434681ab9ae5939a1703e8c9ff26443",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 1,
+        "ammo_clip_size": 1,
+        "viewkick_pitch_base": -4,
+        "viewkick_yaw_base": 0,
+        "reload_time": 3,
+        "zoom_time_in": 0.35,
+        "zoom_time_out": 0.35,
+        "damage_near_value": 250,
+        "damage_near_value_titanarmor": 1250
+      },
+      "variants": {
+        "extended_ammo": {
+          "ammo_clip_size": "1"
+        },
+        "pas_fast_reload": {
+          "reload_time": "*0.7"
+        },
+        "burn_mod_rocket_launcher": {
+          "damage_near_value": "200",
+          "damage_near_value_titanarmor": "3250"
+        },
+        "pas_fast_ads": {
+          "zoom_time_in": "*0.5",
+          "zoom_time_out": "*0.6"
+        },
+        "sp_s2s_settings": {
+          "damage_near_value_titanarmor": "1500"
+        },
+        "fd_mortar_mode": {
+          "damage_near_value": "*0.0",
+          "damage_near_value_titanarmor": "*0.15"
+        }
+      }
+    },
+    {
+      "id": "mp_weapon_defender",
+      "name": "Charge Rifle",
+      "style": "Rail",
+      "role": "Primary",
+      "titan": false,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_weapon_defender.txt",
+      "sha256": "0221987ddb320ff412b67a75c3507abc422a0fe76d529b0bbbc6318ce38f6521",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 1,
+        "charge_time": 1.3,
+        "charge_cooldown_time": 1,
+        "ammo_clip_size": 0,
+        "viewkick_pitch_base": -1,
+        "viewkick_yaw_base": 0,
+        "reload_time": 3.5,
+        "zoom_time_in": 0.2,
+        "zoom_time_out": 0.15,
+        "damage_near_value": 100,
+        "damage_near_value_titanarmor": 1000
+      },
+      "variants": {
+        "burn_mod_defender": {
+          "damage_near_value": "++20",
+          "damage_near_value_titanarmor": "++375"
+        },
+        "quick_charge": {
+          "charge_time": "*0.33",
+          "charge_cooldown_time": "*0.66",
+          "damage_near_value": "--250",
+          "damage_near_value_titanarmor": "--325"
+        },
+        "PROTO_at_turret": {
+          "charge_time": "0.5",
+          "ammo_clip_size": "-1"
+        },
+        "pas_fast_ads": {
+          "zoom_time_in": "*0.5",
+          "zoom_time_out": "*0.6"
+        },
+        "pas_fast_reload": {
+          "reload_time": "*0.7"
+        }
+      }
+    },
+    {
+      "id": "mp_titanweapon_xo16",
+      "name": "XO-16",
+      "style": "Ballistic",
+      "role": "Primary",
+      "titan": true,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_titanweapon_xo16.txt",
+      "sha256": "ea3b325b70cd8ceb6cd9cc79f08c4f43d7b0afe526ecb7290291b6c325cef065",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 12,
+        "ammo_clip_size": 30,
+        "viewkick_pitch_base": -0.2,
+        "viewkick_yaw_base": 0.2,
+        "reload_time": 2.6,
+        "zoom_time_in": 0.3,
+        "zoom_time_out": 0.3,
+        "damage_near_value": 100,
+        "damage_near_value_titanarmor": 120
+      },
+      "variants": {
+        "accelerator": {
+          "fire_rate": "5",
+          "ammo_clip_size": "150",
+          "viewkick_pitch_base": "-0.05",
+          "viewkick_yaw_base": "0.05",
+          "fire_rate_max": "17",
+          "fire_rate_max_time_speedup": "5.0"
+        },
+        "electric_rounds": {
+          "fire_rate": "12",
+          "damage_near_value": "85"
+        },
+        "fast_reload": {
+          "reload_time": "*0.6"
+        },
+        "extended_ammo": {
+          "ammo_clip_size": "90"
+        },
+        "burst": {
+          "fire_rate": "20",
+          "burst_fire_count": "8",
+          "burst_fire_delay": "0.3",
+          "viewkick_pitch_base": "-0.1",
+          "viewkick_yaw_base": "0.1"
+        },
+        "fire_rate_max_zoom": {
+          "fire_rate": "6",
+          "fire_rate_max": "12"
+        },
+        "burn_mod_titan_xo16": {
+          "fire_rate": "11"
+        }
+      }
+    },
+    {
+      "id": "mp_titanweapon_xo16_shorty",
+      "name": "XO-16",
+      "style": "Ballistic",
+      "role": "Primary",
+      "titan": true,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_titanweapon_xo16_shorty.txt",
+      "sha256": "53263beeae0a68fe8986a53b79f00e2b9d80aa978f438174b98ea4064f4aa6b7",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 12,
+        "ammo_clip_size": 30,
+        "viewkick_pitch_base": -0.2,
+        "viewkick_yaw_base": 0.2,
+        "reload_time": 2.6,
+        "zoom_time_in": 0.3,
+        "zoom_time_out": 0.3,
+        "damage_near_value": 100,
+        "damage_near_value_titanarmor": 120
+      },
+      "variants": {
+        "accelerator": {
+          "fire_rate": "5",
+          "ammo_clip_size": "150",
+          "viewkick_pitch_base": "-0.05",
+          "viewkick_yaw_base": "0.05",
+          "fire_rate_max": "17",
+          "fire_rate_max_time_speedup": "5.0"
+        },
+        "electric_rounds": {
+          "fire_rate": "12",
+          "damage_near_value": "85"
+        },
+        "fast_reload": {
+          "reload_time": "*0.6"
+        },
+        "extended_ammo": {
+          "ammo_clip_size": "90"
+        },
+        "burst": {
+          "fire_rate": "20",
+          "burst_fire_count": "8",
+          "burst_fire_delay": "0.3",
+          "viewkick_pitch_base": "-0.1",
+          "viewkick_yaw_base": "0.1"
+        },
+        "fire_rate_max_zoom": {
+          "fire_rate": "6",
+          "fire_rate_max": "12"
+        },
+        "burn_mod_titan_xo16": {
+          "fire_rate": "11"
+        }
+      }
+    },
+    {
+      "id": "mp_titanweapon_xo16_vanguard",
+      "name": "XO-16",
+      "style": "Ballistic",
+      "role": "Primary",
+      "titan": true,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_titanweapon_xo16_vanguard.txt",
+      "sha256": "ec019d4a6458273babb89acfca8c28839896548d01dce172e551b33bc69dbb30",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 12,
+        "ammo_clip_size": 40,
+        "viewkick_pitch_base": -0.2,
+        "viewkick_yaw_base": 0.2,
+        "reload_time": 2.6,
+        "zoom_time_in": 0.2,
+        "zoom_time_out": 0.2,
+        "damage_near_value": 45,
+        "damage_near_value_titanarmor": 120
+      },
+      "variants": {
+        "arc_rounds": {
+          "ammo_clip_size": "50"
+        },
+        "arc_rounds_with_battle_rifle": {
+          "fire_rate": "8",
+          "ammo_clip_size": "50",
+          "viewkick_pitch_base": "-0.05",
+          "viewkick_yaw_base": "0.05",
+          "fire_rate_max": "18",
+          "fire_rate_max_time_speedup": "3.0",
+          "damage_near_value": "*1.25",
+          "damage_near_value_titanarmor": "*1.25"
+        },
+        "battle_rifle": {
+          "fire_rate": "8",
+          "viewkick_pitch_base": "-0.05",
+          "viewkick_yaw_base": "0.05",
+          "fire_rate_max": "18",
+          "fire_rate_max_time_speedup": "3.0",
+          "damage_near_value": "*1.25",
+          "damage_near_value_titanarmor": "*1.25"
+        },
+        "rapid_reload": {
+          "reload_time": "*0.75"
+        },
+        "fd_balance": {
+          "damage_near_value_titanarmor": "*0.8"
+        }
+      }
+    },
+    {
+      "id": "mp_titanweapon_sticky_40mm",
+      "name": "40mm Tracker Cannon",
+      "style": "Cannon",
+      "role": "Primary",
+      "titan": true,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_titanweapon_sticky_40mm.txt",
+      "sha256": "2158de8926c08c4eeb097f693476739f0e18216309a2f1c4b2fb5cda04c77818",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 1.75,
+        "ammo_clip_size": 12,
+        "viewkick_pitch_base": -1.2,
+        "viewkick_yaw_base": -0.25,
+        "reload_time": 3,
+        "zoom_time_in": 0.1,
+        "zoom_time_out": 0.1,
+        "damage_near_value": 300,
+        "damage_near_value_titanarmor": 500
+      },
+      "variants": {
+        "gunship_gunner": {
+          "fire_rate": "3",
+          "ammo_clip_size": "40",
+          "reload_time": "*0.2"
+        },
+        "splasher_rounds": {
+          "damage_near_value": "250",
+          "damage_near_value_titanarmor": "600"
+        },
+        "fast_reload": {
+          "reload_time": "*0.7"
+        },
+        "extended_ammo": {
+          "ammo_clip_size": "16"
+        },
+        "mortar_shots": {
+          "ammo_clip_size": "10",
+          "damage_near_value": "*1.2",
+          "damage_near_value_titanarmor": "*1.2"
+        },
+        "burn_mod_titan_40mm": {
+          "fire_rate": "2.0",
+          "viewkick_pitch_base": "-1.2",
+          "viewkick_yaw_base": "-0.25"
+        },
+        "sur_level_0": {
+          "fire_rate": "1.25",
+          "ammo_clip_size": "4--"
+        },
+        "sur_level_1": {
+          "fire_rate": "*1.25",
+          "ammo_clip_size": "4++"
+        },
+        "sur_level_2": {
+          "fire_rate": "*1.25",
+          "ammo_clip_size": "4++"
+        },
+        "sur_level_3": {
+          "fire_rate": "*1.25",
+          "ammo_clip_size": "4++"
+        },
+        "pas_tone_burst": {
+          "fire_rate": "5",
+          "burst_fire_count": "1",
+          "burst_fire_delay": "0.75",
+          "charge_time": "2.0",
+          "charge_levels": "3",
+          "charge_cooldown_time": "0.0",
+          "viewkick_pitch_base": "-0.1",
+          "viewkick_yaw_base": "0.0"
+        },
+        "fd_tone_weapon_2": {
+          "ammo_clip_size": "24"
+        }
+      }
+    },
+    {
+      "id": "mp_titanweapon_meteor",
+      "name": "T-203 Thermite Launcher",
+      "style": "Thermite",
+      "role": "Primary",
+      "titan": true,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_titanweapon_meteor.txt",
+      "sha256": "47c59a7080475a147cca5ffc2c41785ee10be9cb940f2593237fd5c5d38ad538",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 1.7,
+        "ammo_clip_size": 1,
+        "viewkick_pitch_base": -1.2,
+        "viewkick_yaw_base": -0.25,
+        "projectile_launch_speed": 2200,
+        "reload_time": 2.4,
+        "zoom_time_in": 0.1,
+        "zoom_time_out": 0.1,
+        "damage_near_value": 310,
+        "damage_near_value_titanarmor": 800
+      },
+      "variants": {
+        "pas_scorch_weapon": {
+          "damage_near_value_titanarmor": "1000"
+        },
+        "fd_wpn_upgrade_1": {
+          "fire_rate": "1.2",
+          "ammo_clip_size": "2",
+          "reload_time": "1.6"
+        },
+        "fd_wpn_upgrade_2": {
+          "fire_rate": "1.2",
+          "ammo_clip_size": "3",
+          "reload_time": "1.6"
+        }
+      }
+    },
+    {
+      "id": "mp_titanweapon_leadwall",
+      "name": "Leadwall",
+      "style": "Scatter",
+      "role": "Primary",
+      "titan": true,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_titanweapon_leadwall.txt",
+      "sha256": "353c41853351e83904983de6848ea74fb90091456740e8854932c6f084079eaa",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 2.5,
+        "ammo_clip_size": 4,
+        "viewkick_pitch_base": -2.25,
+        "viewkick_yaw_base": -0.95,
+        "reload_time": 2.25,
+        "zoom_time_in": 0.2,
+        "zoom_time_out": 0.2,
+        "damage_near_value": 150,
+        "damage_near_value_titanarmor": 125
+      },
+      "variants": {
+        "burn_mod_titan_leadwall": {
+          "damage_near_value": "60",
+          "damage_near_value_titanarmor": "210"
+        }
+      }
+    },
+    {
+      "id": "mp_titanweapon_particle_accelerator",
+      "name": "Splitter Rifle",
+      "style": "Energy",
+      "role": "Primary",
+      "titan": true,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_titanweapon_particle_accelerator.txt",
+      "sha256": "6043074c502427545a61aed029f55f01b19d89ebf896bb79bed9707b43cdc713",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 9,
+        "ammo_clip_size": 40,
+        "viewkick_pitch_base": -0.05,
+        "viewkick_yaw_base": 0,
+        "reload_time": 4,
+        "zoom_time_in": 0.35,
+        "zoom_time_out": 0.35,
+        "damage_near_value": 100,
+        "damage_near_value_titanarmor": 90
+      },
+      "variants": {
+        "proto_particle_accelerator": {
+          "fire_rate": "*1",
+          "damage_near_value": "*0.7",
+          "damage_near_value_titanarmor": "*0.7"
+        },
+        "proto_particle_accelerator_pas": {
+          "fire_rate": "*1",
+          "damage_near_value": "*0.55",
+          "damage_near_value_titanarmor": "*0.55"
+        },
+        "fd_upgraded_proto_particle_accelerator": {
+          "fire_rate": "*1"
+        },
+        "fd_upgraded_proto_particle_accelerator_pas": {
+          "fire_rate": "*1",
+          "damage_near_value": "*0.7",
+          "damage_near_value_titanarmor": "*0.7"
+        },
+        "fd_balance": {
+          "damage_near_value": "*1.1",
+          "damage_near_value_titanarmor": "*1.1"
+        }
+      }
+    },
+    {
+      "id": "mp_titanweapon_sniper",
+      "name": "Plasma Railgun",
+      "style": "Rail",
+      "role": "Primary",
+      "titan": true,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_titanweapon_sniper.txt",
+      "sha256": "3e1efef261a4b4b54357775517f7e6d50660e14f45a7d5e24e86614157587116",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 0.9,
+        "charge_time": 2.25,
+        "charge_levels": 5,
+        "charge_cooldown_time": 0.5,
+        "ammo_clip_size": 6,
+        "viewkick_pitch_base": -3.5,
+        "viewkick_yaw_base": 0.25,
+        "reload_time": 2,
+        "zoom_time_in": 0.2,
+        "zoom_time_out": 0.2,
+        "damage_near_value": 250,
+        "damage_near_value_titanarmor": 250
+      },
+      "variants": {
+        "fast_reload": {
+          "reload_time": "*0.6"
+        },
+        "extended_ammo": {
+          "ammo_clip_size": "5"
+        },
+        "power_shot": {
+          "charge_time": "4.5",
+          "charge_levels": "7"
+        },
+        "quick_shot": {
+          "charge_time": "1.4",
+          "charge_levels": "3"
+        },
+        "instant_shot": {
+          "charge_time": "0.05",
+          "charge_levels": "1",
+          "ammo_clip_size": "5"
+        },
+        "burn_mod_titan_sniper": {
+          "charge_time": "*.6"
+        },
+        "fd_upgrade_charge": {
+          "charge_time": "*0.6"
+        }
+      }
+    },
+    {
+      "id": "mp_titanweapon_predator_cannon",
+      "name": "Predator Cannon",
+      "style": "Rotary",
+      "role": "Primary",
+      "titan": true,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_titanweapon_predator_cannon.txt",
+      "sha256": "9a039d1c7e221c8a9bb8ca333ed6a9ac187f7912b07e66d4004ab93e5a5c8e3f",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 15,
+        "burst_fire_delay": 0.0666,
+        "ammo_clip_size": 150,
+        "viewkick_pitch_base": 0,
+        "viewkick_yaw_base": 0,
+        "reload_time": 4.6,
+        "zoom_time_in": 1.5,
+        "zoom_time_out": 0.75,
+        "damage_near_value": 110,
+        "damage_near_value_titanarmor": 130
+      },
+      "variants": {
+        "LongRangeAmmo": {
+          "viewkick_pitch_base": "0.0",
+          "viewkick_yaw_base": "0.0"
+        },
+        "CloseRangePowerShot": {
+          "fire_rate": "1.0",
+          "charge_time": "0.75",
+          "charge_cooldown_time": "0.0",
+          "damage_near_value": "200",
+          "damage_near_value_titanarmor": "2000"
+        },
+        "pas_CloseRangePowerShot": {
+          "damage_near_value_titanarmor": "*0.85"
+        },
+        "LongRangePowerShot": {
+          "fire_rate": "1.0",
+          "charge_time": "0.75",
+          "charge_cooldown_time": "0.0",
+          "damage_near_value": "200",
+          "damage_near_value_titanarmor": "2000"
+        },
+        "pas_LongRangePowerShot": {
+          "damage_near_value_titanarmor": "*0.85"
+        },
+        "SiegeMode": {
+          "zoom_time_in": "*0.9"
+        },
+        "pas_legion_weapon": {
+          "ammo_clip_size": "140"
+        }
+      }
+    },
+    {
+      "id": "mp_titanweapon_predator_cannon_siege",
+      "name": "Predator Cannon",
+      "style": "Rotary",
+      "role": "Primary",
+      "titan": true,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_titanweapon_predator_cannon_siege.txt",
+      "sha256": "babcc07927cfc675577c2c2ca060a9f7a2acd2f94cd9436c2d1007a44b0a6877",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 10,
+        "burst_fire_delay": 0.0666,
+        "ammo_clip_size": 150,
+        "viewkick_pitch_base": 0,
+        "viewkick_yaw_base": 0,
+        "reload_time": 4.6,
+        "zoom_time_in": 1.5,
+        "zoom_time_out": 0.75,
+        "damage_near_value": 110,
+        "damage_near_value_titanarmor": 130
+      },
+      "variants": {
+        "LongRangeAmmo": {
+          "viewkick_pitch_base": "0.0",
+          "viewkick_yaw_base": "0.0"
+        },
+        "CloseRangePowerShot": {
+          "fire_rate": "1.0",
+          "charge_time": "0.75",
+          "charge_cooldown_time": "0.0",
+          "damage_near_value": "200",
+          "damage_near_value_titanarmor": "2000"
+        },
+        "pas_CloseRangePowerShot": {
+          "damage_near_value_titanarmor": "*0.85"
+        },
+        "LongRangePowerShot": {
+          "fire_rate": "1.0",
+          "charge_time": "0.75",
+          "charge_cooldown_time": "0.0",
+          "damage_near_value": "200",
+          "damage_near_value_titanarmor": "2000"
+        },
+        "pas_LongRangePowerShot": {
+          "damage_near_value_titanarmor": "*0.85"
+        },
+        "SiegeMode": {
+          "zoom_time_in": "*0.9"
+        },
+        "pas_legion_weapon": {
+          "ammo_clip_size": "140"
+        }
+      }
+    },
+    {
+      "id": "mp_titanweapon_rocketeer_rocketstream",
+      "name": "Quad Rocket",
+      "style": "Rocket",
+      "role": "Primary",
+      "titan": true,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_titanweapon_rocketeer_rocketstream.txt",
+      "sha256": "bf18a710eb8ac79f650c4af93756f389596564931801f8c81c8d95a316ff1912",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 1.5,
+        "ammo_clip_size": 20,
+        "ammo_per_shot": 4,
+        "viewkick_pitch_base": -1,
+        "viewkick_yaw_base": -0.25,
+        "reload_time": 3,
+        "zoom_time_in": 0.1,
+        "zoom_time_out": 0.1,
+        "damage_near_value": 200,
+        "damage_near_value_titanarmor": 350
+      },
+      "variants": {
+        "rocketstream_fast": {
+          "fire_rate": "*1.5"
+        },
+        "RocketCore_RocketStream": {
+          "fire_rate": "*1.75"
+        },
+        "burn_mod_titan_rocket_launcher": {
+          "fire_rate": "*1.25"
+        },
+        "sp_s2s_settings_npc": {
+          "fire_rate": "4",
+          "ammo_clip_size": "20"
+        }
+      }
+    },
+    {
+      "id": "mp_titanweapon_flightcore_rockets",
+      "name": "Flight Core Salvo",
+      "style": "Rocket",
+      "role": "Primary",
+      "titan": true,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_titanweapon_flightcore_rockets.txt",
+      "sha256": "a7a904be9b75685a840c457e8d16baeb41931506aaadec44cab11f7ae91c6a44",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 12,
+        "ammo_clip_size": 500,
+        "viewkick_pitch_base": -0.2,
+        "viewkick_yaw_base": -0.25,
+        "projectile_launch_speed": 3000,
+        "reload_time": 3.5,
+        "zoom_time_in": 0.1,
+        "zoom_time_out": 0.1,
+        "damage_near_value": 90,
+        "damage_near_value_titanarmor": 200
+      },
+      "variants": {}
+    },
+    {
+      "id": "mp_titanweapon_shoulder_rockets",
+      "name": "Multi-Target Missile System",
+      "style": "Rocket",
+      "role": "Ability",
+      "titan": true,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_titanweapon_shoulder_rockets.txt",
+      "sha256": "1ad4a60cd854bdd852254d3e3a796c6aba859dc79a05a7d760e777c14b8fe2a4",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 30,
+        "burst_fire_delay": 0.7,
+        "charge_time": -1,
+        "charge_cooldown_time": 18,
+        "ammo_clip_size": 400,
+        "viewkick_pitch_base": 0,
+        "viewkick_yaw_base": 0,
+        "reload_time": 0,
+        "zoom_time_in": 0.1,
+        "zoom_time_out": 0.1,
+        "damage_near_value": 280,
+        "damage_near_value_titanarmor": 150
+      },
+      "variants": {
+        "mod_ordnance_core": {
+          "charge_cooldown_time": "/1.25"
+        },
+        "dev_mod_low_recharge": {
+          "charge_cooldown_time": "/20"
+        },
+        "burn_mod_titan_shoulder_rockets": {
+          "charge_cooldown_time": "/1.65",
+          "damage_near_value": "225"
+        },
+        "fd_balance": {
+          "damage_near_value": "*0.8",
+          "damage_near_value_titanarmor": "*0.8"
+        }
+      }
+    },
+    {
+      "id": "mp_titanweapon_tracker_rockets",
+      "name": "Tracking Rockets",
+      "style": "Rocket",
+      "role": "Ability",
+      "titan": true,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_titanweapon_tracker_rockets.txt",
+      "sha256": "aa7f8fee4b47e20682fef186efaf8a95d3d051d683694df10ed0b0245ba6eab6",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 14,
+        "burst_fire_count": 6,
+        "burst_fire_delay": 0.7,
+        "charge_time": 0.01,
+        "charge_cooldown_time": 0,
+        "ammo_clip_size": 200,
+        "ammo_per_shot": 200,
+        "viewkick_pitch_base": 0,
+        "viewkick_yaw_base": 0,
+        "reload_time": 0,
+        "zoom_time_in": 0.01,
+        "zoom_time_out": 0.01,
+        "damage_near_value": 350
+      },
+      "variants": {
+        "mod_ordnance_core": {
+          "burst_fire_delay": "/1.25"
+        },
+        "dev_mod_low_recharge": {
+          "burst_fire_delay": "/20"
+        },
+        "burn_mod_titan_salvo_rockets": {
+          "burst_fire_delay": "/1.55"
+        },
+        "scripted_no_damage": {
+          "damage_near_value": "*0.0"
+        },
+        "northstar_prime_execution": {
+          "damage_near_value": "*0.0"
+        },
+        "missile_racks": {
+          "burst_fire_count": "12",
+          "ammo_per_shot": "10"
+        },
+        "fd_balance": {
+          "damage_near_value": "*0.8"
+        },
+        "burn_mod_titan_tracker_rockets": {
+          "damage_near_value": "*1.15"
+        },
+        "pas_tone_rockets": {
+          "burst_fire_count": "8"
+        }
+      }
+    },
+    {
+      "id": "mp_titanweapon_homing_rockets",
+      "name": "Slaved Warheads",
+      "style": "Rocket",
+      "role": "Ability",
+      "titan": true,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_titanweapon_homing_rockets.txt",
+      "sha256": "b2f220a69f3a944c0cab379b4e994a29941ed5e2350413187ddf511e937d6ae9",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 1.5,
+        "burst_fire_count": 10,
+        "burst_fire_delay": 14,
+        "ammo_clip_size": 400,
+        "viewkick_pitch_base": 0,
+        "viewkick_yaw_base": 0,
+        "reload_time": 0,
+        "zoom_time_in": 0.01,
+        "zoom_time_out": 0.01,
+        "damage_near_value": 125
+      },
+      "variants": {
+        "mod_ordnance_core": {
+          "burst_fire_delay": "/1.25"
+        },
+        "dev_mod_low_recharge": {
+          "burst_fire_delay": "/20"
+        },
+        "burn_mod_titan_homing_rockets": {
+          "fire_rate": "*1.25",
+          "burst_fire_delay": "/1.5",
+          "damage_near_value": "205"
+        }
+      }
+    },
+    {
+      "id": "mp_titanweapon_salvo_rockets",
+      "name": "Rocket Salvo",
+      "style": "Rocket",
+      "role": "Ability",
+      "titan": true,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_titanweapon_salvo_rockets.txt",
+      "sha256": "4c7e32091fd7707a018304f927aca8ce8817fc70100a6a52ddedba8b382291c7",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 12,
+        "burst_fire_count": 12,
+        "burst_fire_delay": 0.7,
+        "charge_time": 0.01,
+        "charge_cooldown_time": 0,
+        "ammo_clip_size": 120,
+        "ammo_per_shot": 10,
+        "viewkick_pitch_base": 0,
+        "viewkick_yaw_base": 0,
+        "reload_time": 0,
+        "zoom_time_in": 0.01,
+        "zoom_time_out": 0.01,
+        "damage_near_value": 250
+      },
+      "variants": {
+        "mod_ordnance_core": {
+          "burst_fire_delay": "/1.25"
+        },
+        "dev_mod_low_recharge": {
+          "burst_fire_delay": "/20"
+        },
+        "burn_mod_titan_salvo_rockets": {
+          "burst_fire_delay": "/1.55"
+        },
+        "scripted_no_damage": {
+          "damage_near_value": "*0.0"
+        },
+        "northstar_prime_execution": {
+          "damage_near_value": "*0.0"
+        },
+        "missile_racks": {
+          "burst_fire_count": "12",
+          "ammo_per_shot": "10"
+        },
+        "fd_balance": {
+          "damage_near_value": "*0.8"
+        }
+      }
+    },
+    {
+      "id": "mp_titanweapon_dumbfire_rockets",
+      "name": "Cluster Missile",
+      "style": "Rocket",
+      "role": "Ability",
+      "titan": true,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_titanweapon_dumbfire_rockets.txt",
+      "sha256": "60083750bb28b98a740b51612c0d1a3f0d6287ed5011a481644d8ca02edf26e5",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 1.75,
+        "burst_fire_count": 1,
+        "burst_fire_delay": 0.1,
+        "charge_time": 0.01,
+        "charge_cooldown_time": 0,
+        "ammo_clip_size": 180,
+        "ammo_per_shot": 180,
+        "viewkick_pitch_base": -2.5,
+        "viewkick_yaw_base": 0,
+        "reload_time": 0,
+        "zoom_time_in": 0.01,
+        "zoom_time_out": 0.01,
+        "damage_near_value": 300
+      },
+      "variants": {
+        "clustermissile_fast_recharge": {
+          "fire_rate": "*2.2"
+        },
+        "mod_ordnance_core": {
+          "fire_rate": "*1.25"
+        },
+        "dev_mod_low_recharge": {
+          "fire_rate": "*20"
+        },
+        "burn_mod_titan_dumbfire_rockets": {
+          "fire_rate": "*1.25"
+        },
+        "fd_twin_cluster": {
+          "burst_fire_count": "2"
+        }
+      }
+    },
+    {
+      "id": "mp_titanweapon_laser_lite",
+      "name": "Laser Shot",
+      "style": "Rail",
+      "role": "Ability",
+      "titan": true,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_titanweapon_laser_lite.txt",
+      "sha256": "f89618def18b65e73ef375b08ab7724727898650e8af76ed5b4daf5ea9f39347",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 1.5,
+        "charge_time": 3,
+        "charge_cooldown_time": 1,
+        "ammo_clip_size": 120,
+        "viewkick_pitch_base": -1,
+        "viewkick_yaw_base": 0,
+        "reload_time": 3.5,
+        "zoom_time_in": 0.1,
+        "zoom_time_out": 0.1,
+        "damage_near_value": 300,
+        "damage_near_value_titanarmor": 1500
+      },
+      "variants": {
+        "dev_mod_low_recharge": {
+          "charge_cooldown_time": "*0.2"
+        },
+        "burn_mod_titan_laser_lite": {
+          "damage_near_value_titanarmor": "*1.15"
+        },
+        "fd_balance": {
+          "damage_near_value_titanarmor": "*1.25"
+        }
+      }
+    },
+    {
+      "id": "mp_titanweapon_arc_wave",
+      "name": "Arc Wave",
+      "style": "Energy",
+      "role": "Ability",
+      "titan": true,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_titanweapon_arc_wave.txt",
+      "sha256": "be6cc7128dd04fd392dc9713ea046312d1f21f8b57983378db5097c6cb047b87",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 1.5,
+        "charge_time": 30,
+        "charge_cooldown_time": 0,
+        "ammo_clip_size": 100,
+        "ammo_per_shot": 100,
+        "damage_near_value": 250,
+        "damage_near_value_titanarmor": 1500
+      },
+      "variants": {
+        "burn_mod_titan_arc_wave": {
+          "damage_near_value_titanarmor": "*1.15"
+        },
+        "pas_ronin_arcwave": {
+          "ammo_per_shot": "50"
+        }
+      }
+    },
+    {
+      "id": "mp_titanweapon_flame_wall",
+      "name": "Firewall",
+      "style": "Thermite",
+      "role": "Ability",
+      "titan": true,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_titanweapon_flame_wall.txt",
+      "sha256": "e490b99f0511a19b0d8a26f88d70dd2e0ee207ea8e01d85b69f529ac915a676c",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 1.25,
+        "charge_time": 0.2,
+        "charge_cooldown_time": 0,
+        "ammo_clip_size": 200,
+        "ammo_per_shot": 200,
+        "damage_near_value": 0,
+        "damage_near_value_titanarmor": 0
+      },
+      "variants": {}
+    },
+    {
+      "id": "mp_titanability_power_shot",
+      "name": "Power Shot",
+      "style": "Cannon",
+      "role": "Ability",
+      "titan": true,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_titanability_power_shot.txt",
+      "sha256": "0a4bae239e0163516da650e58040cb2e1e567eb170dfe970f76d8cccf1b5bd72",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 9,
+        "ammo_clip_size": 80,
+        "ammo_per_shot": 80,
+        "damage_near_value": 200,
+        "damage_near_value_titanarmor": 2000
+      },
+      "variants": {
+        "pas_legion_chargeshot": {
+          "ammo_per_shot": "40"
+        }
+      }
+    },
+    {
+      "id": "mp_titancore_laser_cannon",
+      "name": "Laser Core",
+      "style": "Beam",
+      "role": "Core",
+      "titan": true,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_titancore_laser_cannon.txt",
+      "sha256": "58c294bccf3bc589d89df4460946957ba49ffa68074df5b6939138f70046612b",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 8,
+        "charge_time": 1.1,
+        "charge_cooldown_time": 1,
+        "ammo_clip_size": 200,
+        "viewkick_pitch_base": -1,
+        "viewkick_yaw_base": 0,
+        "sustained_discharge_duration": 6.5,
+        "sustained_discharge_pulse_frequency": 0.1,
+        "reload_time": 3.5,
+        "zoom_time_in": 0.1,
+        "zoom_time_out": 0.1,
+        "damage_near_value": 200,
+        "damage_near_value_titanarmor": 200
+      },
+      "variants": {
+        "pas_ion_lasercannon": {
+          "sustained_discharge_duration": "5.0"
+        },
+        "fd_balance": {
+          "damage_near_value": "*1.45",
+          "damage_near_value_titanarmor": "*1.45"
+        }
+      }
+    },
+    {
+      "id": "mp_titancore_flame_wave",
+      "name": "Flame Core",
+      "style": "Thermite",
+      "role": "Core",
+      "titan": true,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_titancore_flame_wave.txt",
+      "sha256": "433d650fc80c1e587d60e76c0e3331ca185f4a18903eae87637d85b8bc84045a",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "charge_time": 0.75,
+        "charge_cooldown_time": 1,
+        "ammo_clip_size": 200,
+        "damage_near_value": 300,
+        "damage_near_value_titanarmor": 4000
+      },
+      "variants": {}
+    },
+    {
+      "id": "mp_titancore_salvo_core",
+      "name": "Salvo Core",
+      "style": "Rocket",
+      "role": "Core",
+      "titan": true,
+      "source": "https://github.com/Syampuuh/Titanfall2/blob/9bfcea43ecf2a12fc3783ce22e63e439f422c045/scripts/weapons/mp_titancore_salvo_core.txt",
+      "sha256": "d551d73b2828de6439eb1e6de4c58bd1c5b01121262f864b54d8066106b50d72",
+      "resolution": "#base recursively merged, Windows conditionals selected, root scalars overlaid with SP_BASE; named Mods retained separately, not applied.",
+      "values": {
+        "fire_rate": 12,
+        "burst_fire_count": 20,
+        "charge_time": 0.5,
+        "charge_cooldown_time": 1,
+        "ammo_clip_size": 30,
+        "viewkick_pitch_base": -0.2,
+        "viewkick_yaw_base": -0.25,
+        "projectile_launch_speed": 1000,
+        "reload_time": 3.5,
+        "zoom_time_in": 0.1,
+        "zoom_time_out": 0.1,
+        "damage_near_value": 100,
+        "damage_near_value_titanarmor": 120
+      },
+      "variants": {
+        "fd_salvo_core": {
+          "burst_fire_count": "++10"
+        }
+      }
+    }
+  ]
+}
